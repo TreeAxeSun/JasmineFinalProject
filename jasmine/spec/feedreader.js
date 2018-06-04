@@ -55,7 +55,7 @@ $(function () {
     describe("The menu", function () {
         const body = document.querySelector('body')
         it("is hidden by default", function () {
-            //const body = document.querySelector('body')
+            
             expect(body.className).toBe('menu-hidden');
         });
 
